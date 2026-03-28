@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0C8DC715-F50F-467C-9292-328F920A222C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DB8292E-82A8-4088-97DF-32E0B7D89861"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "R&amp;DProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "controllStatements()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DB8292E-82A8-4088-97DF-32E0B7D89861 - 4d46835a2de5bf58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "R_DProject.ViewController.controllStatements() -&gt; ()"
+                  moduleName = "R&amp;DProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/R&amp;DProject/R&amp;DProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "290"
+                  endingLineNumber = "290"
+                  offsetFromSymbolStart = "1913">
+               </Location>
+               <Location
+                  uuid = "2DB8292E-82A8-4088-97DF-32E0B7D89861 - 4d46835a2de5be96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "R_DProject.ViewController.controllStatements() -&gt; ()"
+                  moduleName = "R&amp;DProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/R&amp;DProject/R&amp;DProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  uuid = "2DB8292E-82A8-4088-97DF-32E0B7D89861 - 4d46835a2de5be96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "R_DProject.ViewController.controllStatements() -&gt; ()"
+                  moduleName = "R&amp;DProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/R&amp;DProject/R&amp;DProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "1402">
+               </Location>
+               <Location
+                  uuid = "2DB8292E-82A8-4088-97DF-32E0B7D89861 - 4d46835a2de5bf9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "R_DProject.ViewController.controllStatements() -&gt; ()"
+                  moduleName = "R&amp;DProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/R&amp;DProject/R&amp;DProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "296"
+                  endingLineNumber = "296"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  uuid = "2DB8292E-82A8-4088-97DF-32E0B7D89861 - 4d46835a2de5bf9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "R_DProject.ViewController.controllStatements() -&gt; ()"
+                  moduleName = "R&amp;DProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/R&amp;DProject/R&amp;DProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "296"
+                  endingLineNumber = "296"
+                  offsetFromSymbolStart = "1402">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "085B3136-BD3A-4449-A7A8-0CE7F8F79F31"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "R&amp;DProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
+            landmarkName = "controllStatements()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "085B3136-BD3A-4449-A7A8-0CE7F8F79F31 - 4d46835a2de5bfbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "R_DProject.ViewController.controllStatements() -&gt; ()"
+                  moduleName = "R&amp;DProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/R&amp;DProject/R&amp;DProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "2431">
+               </Location>
+               <Location
+                  uuid = "085B3136-BD3A-4449-A7A8-0CE7F8F79F31 - 4d46835a2de5bc7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "R_DProject.ViewController.controllStatements() -&gt; ()"
+                  moduleName = "R&amp;DProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/R&amp;DProject/R&amp;DProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "1913">
+               </Location>
+               <Location
+                  uuid = "085B3136-BD3A-4449-A7A8-0CE7F8F79F31 - 4d46835a2de5bd47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "R_DProject.ViewController.controllStatements() -&gt; ()"
+                  moduleName = "R&amp;DProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/R&amp;DProject/R&amp;DProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "305"
+                  endingLineNumber = "305"
+                  offsetFromSymbolStart = "1913">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,4 @@
+use_frameworks!
+target 'R&DProject' do
+  pod 'RealmSwift', '~> 10.46'
+end
