@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1854F75B2EF580560098FB4E /* ZuperAssesmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F75A2EF580560098FB4E /* ZuperAssesmentApp.swift */; };
+		1854F75D2EF580560098FB4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F75C2EF580560098FB4E /* ContentView.swift */; };
+		1854F75F2EF580590098FB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854F75E2EF580590098FB4E /* Assets.xcassets */; };
+		1854F7622EF580590098FB4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854F7612EF580590098FB4E /* Preview Assets.xcassets */; };
+		1854F76C2EF580590098FB4E /* ZuperAssesmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F76B2EF580590098FB4E /* ZuperAssesmentTests.swift */; };
+		1854F7762EF580590098FB4E /* ZuperAssesmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F7752EF580590098FB4E /* ZuperAssesmentUITests.swift */; };
+		1854F7782EF580590098FB4E /* ZuperAssesmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F7772EF580590098FB4E /* ZuperAssesmentUITestsLaunchTests.swift */; };
+		1854F78A2EF581FD0098FB4E /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F7892EF581FD0098FB4E /* ServiceModel.swift */; };
+		1854F78C2EF5826F0098FB4E /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F78B2EF5826F0098FB4E /* ServiceViewModel.swift */; };
+		1854F78F2EF5831F0098FB4E /* ServiceDummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F78E2EF5831F0098FB4E /* ServiceDummyData.swift */; };
+		1854F7912EF586890098FB4E /* ServiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F7902EF586890098FB4E /* ServiceListView.swift */; };
+		1854F7932EF586B00098FB4E /* ServiceListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F7922EF586B00098FB4E /* ServiceListRowView.swift */; };
+		1854F7952EF58A090098FB4E /* ServiceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F7942EF58A090098FB4E /* ServiceDetails.swift */; };
+		1854F7972EF58E210098FB4E /* DetailsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854F7962EF58E210098FB4E /* DetailsInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1854F7682EF580590098FB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1854F74F2EF580560098FB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1854F7562EF580560098FB4E;
+			remoteInfo = ZuperAssesment;
+		};
+		1854F7722EF580590098FB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1854F74F2EF580560098FB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1854F7562EF580560098FB4E;
+			remoteInfo = ZuperAssesment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1854F7572EF580560098FB4E /* ZuperAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuperAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1854F75A2EF580560098FB4E /* ZuperAssesmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuperAssesmentApp.swift; sourceTree = "<group>"; };
+		1854F75C2EF580560098FB4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1854F75E2EF580590098FB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1854F7612EF580590098FB4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1854F7672EF580590098FB4E /* ZuperAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuperAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1854F76B2EF580590098FB4E /* ZuperAssesmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuperAssesmentTests.swift; sourceTree = "<group>"; };
+		1854F7712EF580590098FB4E /* ZuperAssesmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuperAssesmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1854F7752EF580590098FB4E /* ZuperAssesmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuperAssesmentUITests.swift; sourceTree = "<group>"; };
+		1854F7772EF580590098FB4E /* ZuperAssesmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuperAssesmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1854F7892EF581FD0098FB4E /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		1854F78B2EF5826F0098FB4E /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		1854F78E2EF5831F0098FB4E /* ServiceDummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDummyData.swift; sourceTree = "<group>"; };
+		1854F7902EF586890098FB4E /* ServiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListView.swift; sourceTree = "<group>"; };
+		1854F7922EF586B00098FB4E /* ServiceListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListRowView.swift; sourceTree = "<group>"; };
+		1854F7942EF58A090098FB4E /* ServiceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetails.swift; sourceTree = "<group>"; };
+		1854F7962EF58E210098FB4E /* DetailsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1854F7542EF580560098FB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1854F7642EF580590098FB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1854F76E2EF580590098FB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1854F74E2EF580560098FB4E = {
+			isa = PBXGroup;
+			children = (
+				1854F7592EF580560098FB4E /* ZuperAssesment */,
+				1854F76A2EF580590098FB4E /* ZuperAssesmentTests */,
+				1854F7742EF580590098FB4E /* ZuperAssesmentUITests */,
+				1854F7582EF580560098FB4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1854F7582EF580560098FB4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1854F7572EF580560098FB4E /* ZuperAssesment.app */,
+				1854F7672EF580590098FB4E /* ZuperAssesmentTests.xctest */,
+				1854F7712EF580590098FB4E /* ZuperAssesmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1854F7592EF580560098FB4E /* ZuperAssesment */ = {
+			isa = PBXGroup;
+			children = (
+				1854F75A2EF580560098FB4E /* ZuperAssesmentApp.swift */,
+				1854F7842EF580E80098FB4E /* Model */,
+				1854F7852EF580F90098FB4E /* ViewModel */,
+				1854F7862EF581040098FB4E /* View */,
+				1854F78D2EF583040098FB4E /* Network */,
+				1854F75E2EF580590098FB4E /* Assets.xcassets */,
+				1854F75C2EF580560098FB4E /* ContentView.swift */,
+				1854F7602EF580590098FB4E /* Preview Content */,
+			);
+			path = ZuperAssesment;
+			sourceTree = "<group>";
+		};
+		1854F7602EF580590098FB4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1854F7612EF580590098FB4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1854F76A2EF580590098FB4E /* ZuperAssesmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				1854F76B2EF580590098FB4E /* ZuperAssesmentTests.swift */,
+			);
+			path = ZuperAssesmentTests;
+			sourceTree = "<group>";
+		};
+		1854F7742EF580590098FB4E /* ZuperAssesmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1854F7752EF580590098FB4E /* ZuperAssesmentUITests.swift */,
+				1854F7772EF580590098FB4E /* ZuperAssesmentUITestsLaunchTests.swift */,
+			);
+			path = ZuperAssesmentUITests;
+			sourceTree = "<group>";
+		};
+		1854F7842EF580E80098FB4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1854F7892EF581FD0098FB4E /* ServiceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1854F7852EF580F90098FB4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1854F78B2EF5826F0098FB4E /* ServiceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1854F7862EF581040098FB4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1854F7902EF586890098FB4E /* ServiceListView.swift */,
+				1854F7922EF586B00098FB4E /* ServiceListRowView.swift */,
+				1854F7942EF58A090098FB4E /* ServiceDetails.swift */,
+				1854F7962EF58E210098FB4E /* DetailsInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1854F78D2EF583040098FB4E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1854F78E2EF5831F0098FB4E /* ServiceDummyData.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1854F7562EF580560098FB4E /* ZuperAssesment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1854F77B2EF580590098FB4E /* Build configuration list for PBXNativeTarget "ZuperAssesment" */;
+			buildPhases = (
+				1854F7532EF580560098FB4E /* Sources */,
+				1854F7542EF580560098FB4E /* Frameworks */,
+				1854F7552EF580560098FB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZuperAssesment;
+			productName = ZuperAssesment;
+			productReference = 1854F7572EF580560098FB4E /* ZuperAssesment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1854F7662EF580590098FB4E /* ZuperAssesmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1854F77E2EF580590098FB4E /* Build configuration list for PBXNativeTarget "ZuperAssesmentTests" */;
+			buildPhases = (
+				1854F7632EF580590098FB4E /* Sources */,
+				1854F7642EF580590098FB4E /* Frameworks */,
+				1854F7652EF580590098FB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1854F7692EF580590098FB4E /* PBXTargetDependency */,
+			);
+			name = ZuperAssesmentTests;
+			productName = ZuperAssesmentTests;
+			productReference = 1854F7672EF580590098FB4E /* ZuperAssesmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1854F7702EF580590098FB4E /* ZuperAssesmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1854F7812EF580590098FB4E /* Build configuration list for PBXNativeTarget "ZuperAssesmentUITests" */;
+			buildPhases = (
+				1854F76D2EF580590098FB4E /* Sources */,
+				1854F76E2EF580590098FB4E /* Frameworks */,
+				1854F76F2EF580590098FB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1854F7732EF580590098FB4E /* PBXTargetDependency */,
+			);
+			name = ZuperAssesmentUITests;
+			productName = ZuperAssesmentUITests;
+			productReference = 1854F7712EF580590098FB4E /* ZuperAssesmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1854F74F2EF580560098FB4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1854F7562EF580560098FB4E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					1854F7662EF580590098FB4E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1854F7562EF580560098FB4E;
+					};
+					1854F7702EF580590098FB4E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1854F7562EF580560098FB4E;
+					};
+				};
+			};
+			buildConfigurationList = 1854F7522EF580560098FB4E /* Build configuration list for PBXProject "ZuperAssesment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1854F74E2EF580560098FB4E;
+			productRefGroup = 1854F7582EF580560098FB4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1854F7562EF580560098FB4E /* ZuperAssesment */,
+				1854F7662EF580590098FB4E /* ZuperAssesmentTests */,
+				1854F7702EF580590098FB4E /* ZuperAssesmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1854F7552EF580560098FB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854F7622EF580590098FB4E /* Preview Assets.xcassets in Resources */,
+				1854F75F2EF580590098FB4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1854F7652EF580590098FB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1854F76F2EF580590098FB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1854F7532EF580560098FB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854F78F2EF5831F0098FB4E /* ServiceDummyData.swift in Sources */,
+				1854F7932EF586B00098FB4E /* ServiceListRowView.swift in Sources */,
+				1854F75D2EF580560098FB4E /* ContentView.swift in Sources */,
+				1854F7972EF58E210098FB4E /* DetailsInfoView.swift in Sources */,
+				1854F7912EF586890098FB4E /* ServiceListView.swift in Sources */,
+				1854F75B2EF580560098FB4E /* ZuperAssesmentApp.swift in Sources */,
+				1854F78A2EF581FD0098FB4E /* ServiceModel.swift in Sources */,
+				1854F7952EF58A090098FB4E /* ServiceDetails.swift in Sources */,
+				1854F78C2EF5826F0098FB4E /* ServiceViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1854F7632EF580590098FB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854F76C2EF580590098FB4E /* ZuperAssesmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1854F76D2EF580590098FB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854F7762EF580590098FB4E /* ZuperAssesmentUITests.swift in Sources */,
+				1854F7782EF580590098FB4E /* ZuperAssesmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1854F7692EF580590098FB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1854F7562EF580560098FB4E /* ZuperAssesment */;
+			targetProxy = 1854F7682EF580590098FB4E /* PBXContainerItemProxy */;
+		};
+		1854F7732EF580590098FB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1854F7562EF580560098FB4E /* ZuperAssesment */;
+			targetProxy = 1854F7722EF580590098FB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1854F7792EF580590098FB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1854F77A2EF580590098FB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1854F77C2EF580590098FB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZuperAssesment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhoopendra.ZuperAssesment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1854F77D2EF580590098FB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZuperAssesment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhoopendra.ZuperAssesment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1854F77F2EF580590098FB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhoopendra.ZuperAssesmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZuperAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZuperAssesment";
+			};
+			name = Debug;
+		};
+		1854F7802EF580590098FB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhoopendra.ZuperAssesmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZuperAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZuperAssesment";
+			};
+			name = Release;
+		};
+		1854F7822EF580590098FB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhoopendra.ZuperAssesmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZuperAssesment;
+			};
+			name = Debug;
+		};
+		1854F7832EF580590098FB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhoopendra.ZuperAssesmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZuperAssesment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1854F7522EF580560098FB4E /* Build configuration list for PBXProject "ZuperAssesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854F7792EF580590098FB4E /* Debug */,
+				1854F77A2EF580590098FB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1854F77B2EF580590098FB4E /* Build configuration list for PBXNativeTarget "ZuperAssesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854F77C2EF580590098FB4E /* Debug */,
+				1854F77D2EF580590098FB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1854F77E2EF580590098FB4E /* Build configuration list for PBXNativeTarget "ZuperAssesmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854F77F2EF580590098FB4E /* Debug */,
+				1854F7802EF580590098FB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1854F7812EF580590098FB4E /* Build configuration list for PBXNativeTarget "ZuperAssesmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854F7822EF580590098FB4E /* Debug */,
+				1854F7832EF580590098FB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1854F74F2EF580560098FB4E /* Project object */;
+}
